@@ -1,32 +1,55 @@
 header{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    font-size: 4rem;
-   width: clamp(1700px, 0px, 0px);
    min-height: 5rem;
 
 }
 body {
     display: padding-left: ;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(255, 255, 255);
+    padding-top: 4em;
+    color: rgb(255, 255, 255); 
 }
 footer {
-    padding-top: 4em;
+    background-color: rgb(135, 177, 135);
+    text-align: center;
 }
+* {
+    box-sizing: border-box;
+}
+
 li {
     display: flexbox;
 }
+.divheader {
+    word-wrap: break-word;
+}
+.skotor {
+    font-size: 10rem;
+    font-style: italic;
+    position: absolute;
+    left: 0.5em;
+    top: 0.9em;
+}
+.slogan {
+    font-size: 4rem;
+    position: absolute;
+    left: 1.3em;
+    top: 5em;
+}
+.imageheader {
+    max-width: 100%;
+}
+.column {
+    float: left;
+    width: 100vh;
+    padding: 10px;
+}
 .grille
 {
-display: grid;
-height: 100vh;
-grid-template-columns: 20em 20em 20em;
-grid-template-rows: 3em 3em 3em;
-grid-gap: 1em;
-padding: 1em;
-font-weight: 700;
-color: rgb(255, 255, 255);}
+    content: "";
+    display: table;
+    clear: both;
+}
 
 hr{
 
@@ -36,31 +59,31 @@ hr{
     box-shadow: 0 20px 20px -20px rgb(0, 0, 0);
     margin-top: 0;
 }
+.div {
+    width: 75vh;
+    word-wrap: break-word;
+    margin: 3em;
+}
 .image {
-    grid-row-start: span 4;
-    grid-column-start: span 1;
-    
+max-width: 100%;
+
 }
 .image2 {
-    grid-column-start: 2;
-    grid-row-start: span 1;
+width: 100%;
 }
+
 .skatecool2 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    font-size: 3.8rem;
-    padding-top: 3rem;
+
     height: fit-content;
     width: fit-content;
 }
 .skateska {
-    grid-column-start: 2;
-    grid-column-end: 4; 
-    grid-row-start: span 2;
-    height: fit-content;
-    width: fit-content;
-    font-size: 7.5rem;
-
+    font-size: 10rem;
+margin: 0px;
+}
+.skateska:hover {
+    opacity: 50%;
+    cursor: pointer;
 }
 .chtitskate {
     grid-column-start: 4;
@@ -70,8 +93,18 @@ hr{
     font-size: 5rem;
     padding-top: 2.5rem;
 }
-.skateono {
-grid-column-start: 3;
-grid-row-start: span 1;
-padding-left: 10.6rem;
+
+.footerinfo {
+    color: white;
+    margin: 0 4em;
+    text-align: center;
+    padding-top: 6em;
+    display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+text-align: left;
+padding-top: 5em;
+padding-bottom: 5em;
+height: 12em;
+text-align: center;
 }
